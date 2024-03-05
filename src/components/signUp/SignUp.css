@@ -1,0 +1,67 @@
+.signUp {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #526D82;
+    padding-top: 200px;
+}
+
+.signUp .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    height: 350px;
+    background-color: #DDE6ED;
+    border-radius: 10px;
+}
+
+.signUp .container form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 70px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.signUp .container form input  {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid #526D82;
+    color: #526D82;
+    font-size: 15px;
+}
+.password {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signUp .container form button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #526D82;
+    color: #fff;
+}
+.icon{
+    position: absolute; 
+    right: 30px;
+    cursor: pointer;
+}
+.error{
+    font-family: sans-serif;
+    color: red;
+    font-size: 13px;
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+}

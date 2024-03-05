@@ -1,0 +1,42 @@
+footer{
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #27374D;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container .logo{
+    text-align: center;
+    color: #DDE6ED;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+footer .container .logo .footer_icon{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #DDE6ED;
+    color: #27374D;
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+footer .container .contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .container .contact ul li{
+    list-style: none;
+    color: #DDE6ED;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+footer .container .contact ul li a{
+    color: #DDE6ED;
+    text-decoration: none;
+}

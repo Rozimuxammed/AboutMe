@@ -1,0 +1,43 @@
+.aboutHobby {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    background-color: #526D82;
+}
+.aboutHobby .container .myHobby p{
+    color: #DDE6ED;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+.aboutHobby .container .myHobby p span{
+    color: #FB8B24;
+    margin-left: 10px;
+}
+.aboutHobby .container .myHobby h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+    color: #DDE6ED;
+    margin-bottom: 50px;
+}
+.aboutHobby .container .myHobby h1 span{
+    color: #FB8B24;
+}
+.aboutHobby .container .myHobby .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.aboutHobby .container .myHobby .imgs img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.maps{
+    padding-bottom: 30px;
+}

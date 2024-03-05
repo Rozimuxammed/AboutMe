@@ -1,0 +1,18 @@
+.aboutFamily {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #526D82;
+}
+.aboutFamily .container .myFamily{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.aboutFamily .container .myFamily p{
+    color: #DDE6ED;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
