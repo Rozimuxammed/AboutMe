@@ -27,7 +27,7 @@ function Login({ setUser }) {
               setEmail(e.target.value);
             }}
             type="email"
-            placeholder="Emailingizni kiriting..."
+            placeholder="Electron pochtangizni kiriting..."
           />
           <div className="password">
             <input

@@ -34,7 +34,7 @@ function SignUp({setUser}) {
               setEmail(e.target.value);
             }}
             type="email"
-            placeholder="Email kiriting..."
+            placeholder="Electron pochtangizni kiriting..."
           />
           <div className="password">
             <input
